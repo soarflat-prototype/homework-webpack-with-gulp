@@ -8,10 +8,12 @@ gulpでwebpackの利用できるようになるための課題
 
 ### 現状の動作
 ![incorrect](https://cloud.githubusercontent.com/assets/3727873/23396258/5461c00e-fdd6-11e6-963a-493fc0458ecb.jpg)
+
 1080は出力されていますが、エラーが出力されており処理が止まっています。
 
 ### 期待する正常な動作
 ![correct](https://cloud.githubusercontent.com/assets/3727873/23396259/5464bfd4-fdd6-11e6-928a-cd28ad0a9c5a.gif)
+
 1080が出力され、ページを開いた際のフェードアニメーションも動作します。
 
 ## ヒント
