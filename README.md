@@ -29,7 +29,7 @@ gulpでwebpackの利用できるようになるための課題
 ### `CommonsChunkPlugin`
 上記を対応すれば、`jquery`と`velocity-animate`をバンドルしたファイルを出力でき、ブラウザでも正常に動作したと思います。しかし出力されるファイルに無駄があるため、webpackのプラグインである`CommonsChunkPlugin`を利用して`vendor.bundle.js`を出力してください。
 
-`CommonsChunkPlugin`に関して知りたい方は[こちらの記事](https://webpack.js.org/plugins/commons-chunk-plugin/)をご覧ください。
+`CommonsChunkPlugin`に関して知りたい方は[こちらの記事](http://qiita.com/soarflat/items/f8212434c4c3cb8ee00d)をご覧ください。
 
 ## 解答
 解答は`correct.gulpfile.js`に記載しております。
